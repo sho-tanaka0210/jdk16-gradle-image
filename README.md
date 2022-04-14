@@ -1,0 +1,1 @@
+# jdk16-gradle-image
