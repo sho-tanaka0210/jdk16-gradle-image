@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk16:latest
+FROM openjdk:17-jdk-buster
 
 WORKDIR /workdir
 
