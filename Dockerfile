@@ -7,7 +7,6 @@ WORKDIR /workdir
 ARG GRADLE_VERSION='gradle-7.4.2'
 
 RUN apt-get update && \
-  apt-get install -y gradle && \
   apt-get install -y wget && \
   mkdir -p /opt/gradle && \
   wget https://services.gradle.org/distributions/${GRADLE_VERSION}-bin.zip -P /opt/gradle/ && \
